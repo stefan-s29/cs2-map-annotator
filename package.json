@@ -1,0 +1,18 @@
+{
+  "name": "cs2-map-annotator",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Stefan Schätz <stefan.schaetz@gmx.net> (https://github.com/stefan-s29)",
+  "description": "A web application that allows you to annotate maps of Counter-Strike 2 and other games",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  }
+}
