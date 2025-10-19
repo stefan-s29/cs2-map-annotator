@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import './style.css'
+import './style.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -22,6 +22,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
        critical spots and other tactically useful information.</p>
    <p>by Stefan Schätz, 2025</p>
   </div>
-`
-
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+`;
